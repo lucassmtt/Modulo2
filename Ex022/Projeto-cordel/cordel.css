@@ -52,11 +52,17 @@ section.normal{
 section.fundo1{
     background-image: url(pacote-d012/imagens/background001.jpg);
     background-position: center center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.452);
+    background-attachment: fixed;
 }
 
 section.fundo2{
     background-image: url(pacote-d012/imagens/background002.jpg);
     background-position: center center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.452);
+    background-attachment: fixed;
 }
 
 section#s4{
