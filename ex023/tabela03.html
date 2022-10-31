@@ -5,11 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mesclando tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            height: 400px;
+        }
+
+        td{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Mesclagem de células</h1>
+    <h1>Mesclagem de Células</h1>
 
-    
+    <table>
+        <tr>
+            <td>A1</td>
+            <td colspan="2">A2</td> 
+        </tr>
+        <tr>
+            <td rowspan="">B1</td>
+            <td>B2</td>
+            <td rowspan="3">B3</td>
+        </tr>
+        <tr>
+
+            <td>C2</td>
+            <td>C3</td>
+        </tr>
+        <tr>
+
+            <td>E2</td>
+            <td>E3</td>
+        </tr>
+    </table>
 
 </body>
 </html>
