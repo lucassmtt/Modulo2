@@ -29,6 +29,7 @@
         }
 
         table {
+            position: relative;
             height: 600px;
             width: 800px;
             border-collapse: collapse;
@@ -38,6 +39,12 @@
         thead {
             background-color: lightblue;
             border: 1px solid white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: lightblue;
         }
 
         thead > tr{
