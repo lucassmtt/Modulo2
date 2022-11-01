@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupamento de Tabela</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            background-color: yellow;
+            height: 300px;
+            width: 300px;
+            margin: auto;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        th,td{
+            width: 100px;
+            text-align: center;
+            border: 1px solid black;
+        }
+
+        col.nome{
+            background-color: turquoise;
+        }
+
+        col.sexo{
+            background-color: lightgreen;
+        }
+
+        col.idade{
+            background-color: lightgoldenrodyellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de tabela</h1>
+    <caption>
+        <h1>Agrupamento de colunas</h1>
+    </caption>
+
+
+
+    <table>
+
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="prof">
+        </colgroup>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Claúdio</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Joel</td>
+            <td>M</td>
+            <td>23</td>
+            <td>Jogador</td>
+        </tr>
+    </table>
+</body>
+</html>
